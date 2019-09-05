@@ -1,7 +1,7 @@
 package utility;
 
 import encoder.Encoder;
-import exceptions.EncoderException;
+import exception.EncoderException;
 
 import java.util.Scanner;
 

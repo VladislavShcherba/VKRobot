@@ -1,0 +1,34 @@
+{
+    "server": "QsxT/36nysyni2WH/7wrQJaveZmwxLuVWixn9ZFuvPM=",
+    "user": "ceioNX/GSQLJhVTfCncEUQ==",
+    "key": "7jmZSLDS37a4gQiuJEMhPKaQNLpMgAJR1aKVl4CLZdw=",
+    "capabilities": {
+        "project": "Vladislav's Spike Project",
+        "build": "Vladislav's Spike Build",
+        "name": "Vladislav's Spike Run",
+        "resolution": "1920x1080"
+    },
+    "environments": {
+        "default" : {
+
+        },
+        "win10_chrome76": {
+            "os": "Windows",
+            "os_version": "10",
+            "browser": "chrome",
+            "browser_version": "76.0"
+        },
+        "win81_chrome76": {
+            "os": "Windows",
+            "os_version": "8.1",
+            "browser": "chrome",
+            "browser_version": "76.0"
+        },
+        "win7_chrome76": {
+            "os": "Windows",
+            "os_version": "7",
+            "browser": "chrome",
+            "browser_version": "76.0"
+        }
+    }
+}

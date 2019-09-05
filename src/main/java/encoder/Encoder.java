@@ -1,7 +1,7 @@
 package encoder;
 
 
-import exceptions.EncoderException;
+import exception.EncoderException;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;

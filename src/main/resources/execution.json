@@ -1,0 +1,6 @@
+{
+    "execution_location": "remote",
+    "local_browser": "chrome",
+    "remote_environment": "default",
+    "max_waiting_time": "30000"
+}
