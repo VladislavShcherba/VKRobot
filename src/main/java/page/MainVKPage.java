@@ -11,6 +11,8 @@ import java.util.Iterator;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.CollectionCondition.*;
+import static java.util.Arrays.asList;
 
 public class MainVKPage extends StandardVKPage implements Iterable<Post> {
 
@@ -29,6 +31,15 @@ public class MainVKPage extends StandardVKPage implements Iterable<Post> {
 
     public void verifyPageAvatarBigIsVisible() {
         pageAvatarBig.shouldBe(visible);
+    }
+
+    public void verifyPageAvatarSmallOrBigIsVisible() {
+        elements(asList(pageAvatarBig, pageAvatarSmall))
+                .filter(visible).shouldHave(size(1));
+    }
+
+    public void verifyPageNameIs(String name) {
+        pageNameElement.should(have(exactText(name)));
     }
 
     @Override
